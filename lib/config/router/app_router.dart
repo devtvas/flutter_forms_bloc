@@ -1,6 +1,6 @@
-import 'package:flutter_forms_with_bloc/presentation/screens/bloc_counter_screen.dart';
-import 'package:flutter_forms_with_bloc/presentation/screens/cubit_counter_screen.dart';
-import 'package:flutter_forms_with_bloc/presentation/screens/home_screen.dart';
+import 'package:flutter_cubit_counter/presentation/screens/bloc_counter_screen.dart';
+import 'package:flutter_cubit_counter/presentation/screens/cubit_counter_screen.dart';
+import 'package:flutter_cubit_counter/presentation/screens/home_screen.dart';
 import 'package:go_router/go_router.dart';
 
 final appRouter = GoRouter(routes: [

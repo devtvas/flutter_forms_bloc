@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_forms_with_bloc/presentation/blocs/counter_cubit/counter_cubit.dart';
+import 'package:flutter_cubit_counter/presentation/blocs/counter_cubit/counter_cubit.dart';
 
 class CubitCounterScreen extends StatelessWidget {
   const CubitCounterScreen({super.key});
@@ -19,9 +19,7 @@ class _CubitCounterView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final counterState = context
-        .watch<CounterCubit>()
-        .state; // watch is used to get the current state of the cubit.
+    final counterState = context.watch<CounterCubit>().state;
     return Scaffold(
       appBar: AppBar(
         title: Text('Cubit Counter: ${counterState.transactionCount}'),

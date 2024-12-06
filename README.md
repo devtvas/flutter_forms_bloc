@@ -1,4 +1,4 @@
-# flutter_forms_with_bloc
+# flutter_cubit_counter
 
 A new Flutter project.
 

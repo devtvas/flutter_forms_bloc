@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_forms_with_bloc/config/router/app_router.dart';
-import 'package:flutter_forms_with_bloc/config/theme/app_theme.dart';
+import 'package:flutter_cubit_counter/config/router/app_router.dart';
+import 'package:flutter_cubit_counter/config/theme/app_theme.dart';
 
 class AppWidget extends StatelessWidget {
   const AppWidget({super.key});
